@@ -1,0 +1,84 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.main{
+    margin-top:px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    width: 30vw;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+/*Background Image add*/
+body{
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+   
+    
+}
+.hero1{
+    width: 100%;
+    height: 100%px;
+    align-content: top;
+    align-items: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text1{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;   
+}
+.text2{
+    text-align: center;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(125, 123, 121);
+
+}
+.boxm{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(205, 197, 187);
+    
+}
+.logo{
+    display: flex;
+    justify-items: left;
+    padding: 20px
+    
+}
+.t1{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.t2{
+    font-size: 10px;
+    margin-left: 10px;
+    color: rgb(74, 76, 76);
+}
+.plan{
+    padding: 10px;
+    background-color: rgb(99, 99, 93);
+}
+.order{
+    margin-left: 37%;
+    margin-right: 37%;
+    padding: 10px;
+    background-color: rgb(59, 10, 207);
+    border-radius: 10px;
+}
+
