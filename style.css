@@ -48,16 +48,15 @@ body{
     border-radius: 10px;
 }
 .box1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-areas: 
+    ".logo .text3 .text4";
     background-color: rgb(205, 197, 187);
     
 }
 .logo{
     display: flex;
-    justify-items: left;
+    justify-items: right;
     padding: 20px
     
 }
@@ -74,11 +73,22 @@ body{
     padding: 10px;
     background-color: rgb(99, 99, 93);
 }
+.end{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
 .order{
-    margin-left: 37%;
-    margin-right: 37%;
-    padding: 10px;
+    padding: 2px;
     background-color: rgb(59, 10, 207);
     border-radius: 10px;
+    font-size: 7px;
+    text-align: center;
+    color: white;
+}
+.corder{
+    font-size: 7px;
+    text-align: center;
 }
 
