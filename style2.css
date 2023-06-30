@@ -1,0 +1,147 @@
+@media screen and (min-width: 577px){
+    body{
+        background-color: orange;
+    }
+    .main{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    .first{
+        display: flex;
+        width: 250px;
+        height: 400px;
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image:url(image-product-desktop.jpg);
+        border: 1px soild black;
+    }
+    .second{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 250px;
+        border: 1px soild black;
+        background-color: white;
+        align-items: center;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    
+    
+    }
+    h1,h2,p,h3,h5,h4{
+        margin: 0px;
+    }
+    .second h5{
+        color: gray;
+        padding-top: 10px;
+    }
+    .second p{
+        color: gray;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .second h1{
+        color: black;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        margin-left: 60px;
+        margin-right: 60px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .second h2{
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: greenyellow;
+    }
+    .second h3{
+        text-decoration: line-through;
+    }
+    .cart{
+        background-color: green;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 40px;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    body{
+        background-color: rgb(45, 200, 141);
+    }
+    .main{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .first{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-image:url(image-product-mobile.jpg);
+        width: 80%;
+        height: 250px;
+        background-size: cover;
+    }
+    .second{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+        width: 80%;
+        border: 1px soild black;
+        background-color: white;
+        align-items: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    
+    }
+    h1,h2,p,h3,h5,h4{
+        margin: 0px;
+    }
+    .second h5{
+    color: gray;
+    padding: 10px;
+    }
+    .second p{
+    color: gray;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 5px;
+    }
+    .second h1{
+    color: black;
+    padding-top: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 25px;
+    text-align: center;
+    }
+    .second h2{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: greenyellow;
+    }
+    .second h3{
+    text-decoration: line-through;
+    }
+    .cart{
+        background-color: green;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 10px;
+        margin-top: 40px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+    }
+}
